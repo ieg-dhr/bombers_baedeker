@@ -1,0 +1,16 @@
+import xml.etree.cElementTree as ET
+
+tree = ET.ElementTree(file="bomber_output/bomber_output_part1.xml")
+root = tree.getroot()
+
+
+def find_entry(city_name):
+    for book in root.iter('book'):
+        for city in book:
+            if city.get('name') == city_name:
+                print(city.get('name'))
+                for detail in city:
+                    print(detail.tag, ":", detail.text)
+
+
+find_entry('DARMSTADT')
