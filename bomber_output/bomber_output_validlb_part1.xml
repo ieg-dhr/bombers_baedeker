@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <book>
-	<title />
-	<subtitle />
-	<part />
-	<range />
-	<preface />
+	<title/>
+	<subtitle/>
+	<part/>
+	<range/>
+	<preface/>
 	<city name="AACHEN">
 		<state>Rhineland</state>
 		<coordinates>50.47,6.5</coordinates>
@@ -128,8 +128,8 @@
 		<population> 5.800</population>
 		<Description>  Altotting is a small town about 6 miles: West of Braunau/Inn(Austria). A number of industrial establishments are reported tohave been erected in this area'since 1939 but little firmintell-igence is available as to their activities. </Description>
 		<ChemicalsandExplosives>  Bayerische Stickshoffwerke A.G.    Gendorf  (3)   A new large chemical works said to be engaged   on explosives and/or propellants is believed   to have been erected here but satisfactory   confirmation of this is unavailable. Acc-   ording to ground reports the factory is also   know as the Anorgana Werke and employs more   than 1,000 workers.</ChemicalsandExplosives>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="AMBERG">
 		<state>Bavaria</state>
@@ -158,8 +158,8 @@
 		<population> 13.800</population>
 		<Description> </Description>
 		<EngineeringandArmaments>Remy, van der lypen &amp; Co.Andernach   (3)   This is a very well equipped works   producing tinned and lacquered cold-   rolled steel strip at a rate of 5,000   tons per month. Normally the works   employ some 1,200 hands.</EngineeringandArmaments>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="ANDREASH&#220;TTE">
 		<state>Silesia</state>
@@ -168,8 +168,8 @@
 		<population> 5.000</population>
 		<Description> Andreash&#252;tte is situated on the main railway line betweenOppeln and Beuthen. Apart from the large works mentionedbelow, there are no industries of importance. </Description>
 		<EngineeringandArmaments>VOHAGAndreash&#252;tte (3)   The Andreasliutte works of the Vereinigte   Oberschlesische H&#252;ttenwerke A.G. comprise   foundries, rolling mills and drop hammers.   They produce barrels for machine guns, bogey   wheels, and suspension components for tanks   and gun carriages. 2,000 workers are   employed. For further particulars of the   VOHAG see under GLEIWITZ.</EngineeringandArmaments>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="ANKLAM">
 		<state>Pomerania</state>
@@ -198,8 +198,8 @@
 		<population> 3500</population>
 		<Description>  This small mining town lies approximately 3 miles: SouthEast of Finsterwalde. It has no industries other than thoseconnected with or part of a number of brooal mines which aresituated in the near vicinity. </Description>
 		<SolidFuels>: &#8221;Grube VTerdmannsheil&#8221;     Axmahtttte (-)  Those mined are owned by the Niederlausitzer  Kohlenwerke A.G-. This br.coal mine produced  1,200,000 tons of brown coal and 139,000 tons /&#8338;f- 14 -  of briquettes in 1937.   Grube Annah&#252;tte     Annah&#252;tte (-)   These mines are owned by the Heye Braunkohlen-   werke G.m.b.H. and in 1937 produced 1,275,000   tons of brown coal and 400,000 tons of briquettes</SolidFuels>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="ANSBACH">
 		<state>Bavaria</state>
@@ -730,8 +730,8 @@
 		<Description> The small town of Br&#252;hl lies on a branch railway some 10 miles:North west of Bonn. The towns &#246;hief activities are connectedwith the exploitation of the brown coal deposits in this neigh-,bourhood. Apart from these there is a metal works, which ismentioned below, and a few minor engineering concerns. </Description>
 		<PublicUtilityServices> Kraftwerk       Bruhl  (2) . Adjacent to the Roddergnibe brown coal mine   is a large, thermal power station which has   a capacity of 92 W.-113-BKUHL (Contd)  Sol 14 Fuels Briquette Works    Br&#252;hl  (3)  There are a number of these works excavating  and briquetting the brown coal in the neigh-  bourhood of Br&#252;hl' The principal pits are  owned by the Braunkohlen &amp; Brikett Rodegrube  A.G. and the company has its own power plant,  mentioned above under "  " </PublicUtilityServices>
 		<IronSteelandFerro-Alloys> Pohlig A.G.      Br&#252;hl (5)  This is a branch factory of the Pohlig works  at Cologne. They are constructors of cables,  railways and transport installations.     &#8212;&#8212;&#8212;i ..-oQo&#8212;     BRUNSWICK   See under Braunschweig.     I     BUER/RUHR   See under Gelsenkirchen.</IronSteelandFerro-Alloys>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="BUNZLAU">
 		<state>Silesia</state>
@@ -998,8 +998,8 @@
 		<population> 5500</population>
 		<Description>  Donauworth is on the left bank of the Danube 20 miles: North of Augsburg. The main line from Frankfort/Main to Munich crosses the Danube here and branch lines lead West to Ulm and East to Ingolstadt. The town has little industry in peacetime but the plant mentioned below has increased in importance during the war. </Description>
 		<EngineeringandArmaments>   Maschinenfabrik Donauworth    Donauworth (3)    A factory was reported in 1942 to be employing a    large number of workers on the manufacture of    trench mortars. This is probably the Maschinenfabrik    Donauworth G.m.b.H, in peace time the only    engineering works in the town and said to have been    converted to armaments production.</EngineeringandArmaments>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="DORMAGEN">
 		<state>Rhineland</state>
@@ -1089,8 +1089,8 @@
 		<distance> 280 miles</distance>
 		<population> 16.000</population>
 		<Description> Apart from a few small textile works, Dfolken has no industry ofimportance The town is situated six miles: North West of Mftnchen-Gladbach.</Description>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="D&#220;REN">
 		<state>Rhineland</state>
@@ -1101,8 +1101,8 @@
 		<Transportation> Railway Junction       iniren (3)   The main line from Aachen divides at Duren   into three branches leading into Dusseldorf,   Cologne and Euskirchen respectively. Two   other less important branches lead north and   south from the town. </Transportation>
 		<PublicUtilityServices>  St&#228;dtisches Gas Werk      Duren (3)   In 1936 this municipal gas works sold 116   million cubic feet of gas. </PublicUtilityServices>
 		<Non-FerrousMetalManufactureandFabrication> Durener Metallwerke     Duren (1)   Situated in the North East outskirts of the   town the ifurener Metallwerke 4G. is a large   works which expanded rapidly in the five   years before the war and in 1939 employed   more than 4,000 workers in its works at   Uhren, Berlin-Borsigwalde, Berlin-Wittenau   and Waren' A wide variety of non-ferrous   metal products are made of duralumin, phosphor   bronze, and copper alloy, particularly sheet,   rectangles, pressed and drawn sections and   rods, seamless drawn tubes, rolled and drawn   wire, forgings, shaped articles, etc. The   Durener Metallwerke at Duren is one of the   largest works of its kind in Germany and it   is believed to produce approximately 7 000   tons of sheet per year.177Carl CanslerDuren (3)   This firm manufactures apparatus chiefly of   non-ferrous metals' for the chemical industry'   They produce a special form of patented copper   wire known as Oanzlerdraht'</Non-FerrousMetalManufactureandFabrication>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="D&#220;NEBERG-KR&#220;MMEL">
 		<state>Schleswig-Holstein</state>
@@ -1111,8 +1111,8 @@
 		<population> 8500</population>
 		<Description> The villages of Duneberg and Krummel lie to the North Westand South East respectively of the small town Geesthacht (pop-ulation 8500)Both villages are of industrial importance onaccount of the two large works of the Dynamit A.-G' which aresituated there' </Description>
 		<ChemicalsandExplosives>Dynamit A-GDuneberg (1)   This factory is operated by Dynamit A. G., and   is quite near the Knlmmel factory, with which   it is associated. In the last war the Duneberg   factory was Germany's largest producer of nitro-   cellulose and nitroglycerine Most of this   production was sent to the Kr&#252;mmel factory for   the manufacture of powder. There has been very   little ground information on the activities of   this plant during the present war, and there is   no air cover. Such reports as have been received   Suggest that it has attained at least its former   activity, and it is probable that it bears the   same relation to the KX&#220;mmel plant as formerly'   On this basis it may be assumed that the nitro-   cellulose production is upwards of 36,000 tons   per annum, but it would be difficult to guess   the nitroglycerine or diglyooldinitrate pro-   duction, since it is unlikely that Germany will   have concentrated her production of this class   of explosive to so great a degree as in the   last war, and at least one new factory engaged   in this production has been identified/Dynamit A.G.178Dynamit A.-G.       Krummel    This factory is operated by Dynamit A.G., and    during the last war was the largest propellant    powder factory in Germany, accounting for nearly    one-third of the total German output of cordite,    and also accounting for about 10 per cent, of    the total German production of Nitrocellulose.    In the peace years this factory was allowed to    continue operations, manufacturing small    quantities of nitroglycerine (probably for    mining ejqplosives); it also introduced, strangely    enough, the production of T. N. T. on a small    scale (a little over 1,000 tons a year), and    engaged in the production of nitrocellulose    for celluloid and synthetic fibre production.    There is very little information regarding    the activities of the Krttamel factory in the    present war, but it is clear that a very large    labour force is now employed. Apart, however,    from a report that its nitroglycerine or    diglycol dinitrate production approaches 5000    tons per annum, which is roughly the same as    the production in the last war, there is little    information as to its output. On the basis    of the nitroglycerine or diglycoldinitrate    output, it seems likely that this factory has    achieved at least its last war importance, and    may have considerably exceeded it. This would    indicate a nitrocellulose output of about    20,000 tons a year. The factory lies on the    banks of the Elbe, east of the village of    Geesthacht. There is also probably a large    propellant powder plant on this site.(1)</ChemicalsandExplosives>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="D&#220;SSELDORF">
 		<state>RHINELAND</state>
@@ -1128,8 +1128,8 @@
 		<ChemicalsandExplosives>191 Henkel &amp; Cie      Reisholz (3)  Situated. 3j miles: South East of Dusseldorf main  station, the chemical works of Henkel &amp; Cie  (incorporating Henkel G.m.b.H. on the same site)  are the largest manufacturers of soap and the  second largest producers of sodium perborate, and  glycerine, in Germany In May 1943, this plant  v/Hs reported to be employing more than 3,000 workres. Thompson-Werke G.m.b.H.     Oberbilk (3)  Manufacturers of soap powder and miscellaneous  chemicals. Plant lies exactly 1 mile East of  main railway station. Rutgerswerke A.G.      miles: north (3)of Nievenheim  This is one of the largest wood impregnating plants  in Germany. Pahlsche Gummi u. Asbest-Gesellschaft Rath   (3) &#8221;Pagnagw m.b.H.  Fibre and asbestos joinings, sheets, hose (reinforced),  particularly rubber lined asbestos products, and  possibly fuel tanks are manufactured. Well-equipped  modern factory employing 4-500 workers before the war.D&#252;sseldorfer GummiwerkTheiler and Seeberger G.m.b.H.    Heerdt   (3)  This firm employed 400-500 workers in 1938 -when they  were principally engaged in producing rubber soles and  heels reputedly at the rate of between 50'and 60 tons  per month. Erwin Pfeffer      D&#252;sseldorf (3)  This company is a government-licensed re-treating concern  with capacity to process 1,000 motor tyres per month.</ChemicalsandExplosives>
 		<TextilesRayonPulpandPaper>  Paper Factory - Siemens    Fincw-Wolf swinkel (3)   A large factory, owned by Siemens-Schuckertwerke  A.G' It produces paper both for electrical and  general purposes, and it occupies an area of  146,600 sq.ft, and is situated some 3 miles: East  of Eberswalde.Rubber  Rubber Factory - Hochwald     Eberswalde (3)   Autoreifen-Hochwald, are a Government licenced  retreading firm with capacity to treat 1,200  car and truck tyres per month.</TextilesRayonPulpandPaper>
 		<Foodstuffs> Rheinm&#252;hle A.G.     Benrath  (-)  This plant consists of flour mills, grain storage,  cold storage installations. Milling capacity is  12,000 tons per annum and the total storage capacity  is believed to be 1 million cubic feet. Simons M&#252;hle      Hafenbecken I (-)         D&#252;sseldorf  This plant consists of a flour mill and grain silos. Rheinm&#252;hle       Hafenbecken II (-)D&#252;sseldorf  Rheinm&#252;hle consists of flour mill and silos.192Simons M&#252;hle     Hafenbecken I      D&#252;sseldorfThis plant consists of a flour mill and grainsilos.Rheinm&#252;hle      Hafenbecken II      D&#252;sseldorfRheinm&#252;hle consists of flour mill and silos.193BBBRSWALDE (Brandenburg)52&#176; 50 N. 13&#176; 50' E: &#8310;&#8304;&#8304; m&#8305;les:    (39,000) Eberswalde is situated on the railway line from Stettin toFrankfurt (Oder)It is important as a connecting link betweenBerlin and Stettin owing to its location on the Hohenzollem Car. ZL.This canal leaves the Havel at Oranienburg and flows past the norther^districts of Eberswalde to join the Oder at Niederfinow, A largeship-lifting lock connects the levels of the canal and the Oder, Thetown is chiefly important for its large brass and copper works.There are also engineering plants, rail, .-y repair shops, and a chemicalfactory. Transportation Reichsbahnausbesserungswerke     Eberswalde  (3)  These large railway repair shops are in the  West part of the town and are believed to employ  some 2,000 workers on the repair and maintenance  of passenger and goods wagons. Shiplifting Lock       Niederfinow (g)  Situated some 3 miles: East of the -town this  lock was the first of its kind to be built.  The process of lifting ships bodily from one  level to another dispenses with several locks  and shortens the time required for the change  of level, by about six hours. This lock can  accommodate vessels up to 1,000 G.R.T, and is  believed to be the largest of its kind in the  world. Public Utility Services M&#228;rkisches Elektrizit&#228;tswerk A.G,   Finow   (1)  The installed capacity of this thermal power  station is believed to be 66 MW, ThF 100 kW  substation is a focal point for the 100 kV  transmission lines which run from the Berlin  area to Northern Germany, Two 100 kV long  distance lines run to Gustrow via Liebenwalde,  one to Pasewalk, West of Stettin, and one to  Strausberg, East of Berlin, One line,  probably 50'kV runs to -Angermunde, Non-Ferrous Metal Manufacture and Fabrication Hirsch-Kupf er A Messingwerke A.G',   Finow  These are one of the largest producers in  Germany of rolled copper and brass and other  copper alloy products. They also produce  aluminium sheet, rectangles, discs, sections,  rods, tubes and wire on a large scale and are  believed to employ several thousand workers.(1)1% Engineering and Armaments  Ardelt Werke G.m.b.H.     Eberswalde (2)   This firmis reported to employ some 3,000  workers on the manufacture of light-metal  castings and steel castings for aircraft  construction as well as gear boxes for use  in tanks and other military transport,  lifting and conveying appliances, cranes,etc'  Franz Seiffert A.G.Eberswalde (3)   The main factory of this company is situated  at Eberswalde on the Hohenzollern Canal and  there is a branch works at Bochum. At  Eberswalde some 1,200 workers were employed  in 1940 on the manufacture of high-pressure  tubes. Chemicals and Explosives  Schering A.G.Finow   (3;   Situated on the Hohenzollern Canal at Finow  this is a branch factory of Schering A.G.  Berlin. It is one of the only two synthetic-  camphor factories in Germany, the other being  the Rheinische Kampfer G. m.b.H. at Dusseldorf  which is also owned by Schering. Other  products of this works are agricultural insect-  icides, borax and boric acid and formic acid. </Foodstuffs>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="EBINGEN">
 		<state>W&#220;rttemberg</state>
@@ -1598,8 +1598,8 @@
 		<population> 1500</population>
 		<Description>  F&#252;rstenhagen lies a few miles: south of Kassel in awooded area and prior to the war it was of no industrialimportance at all.  Since 1939 a very large unidentified works has beenerected here and the large number of workers employed on itsconstruction and on production within the completed parts of theworks, are housed in groups of hutments in the Fttrstenhagen area,thus increasing its population to probably more than 5,000. </Description>
 		<ChemicalsandExplosives>  Unidentified factory possibly making explosives (2)  No ground information about this plant  has been obtained. Its existence was  detected by photograph reconnaissance.  The factory is very large, and its  layout is not typical of any known  explosives plant. The size, construction  and mounding of the buildings suggests  very strongly that it is associated  with the manufacture of a sensitive  high explosive, and there is certainly  nothing which can be associated with  the manufacture of a solid propellant  explosive or with the manufacture of  propellant powder.</ChemicalsandExplosives>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="F&#220;RSTENWALDE">
 		<state>Brandenburg</state>
@@ -1612,8 +1612,8 @@
 		<EngineeringandArmaments>      ,  ,  Julius Pintsch      F&#252;rstenwalde (1) The Julius Pintsch K.G. of Berlin have established what are now the largest works of this concern in F&#252;rstenwalde, to the North of the town and on the Northern side of the Berlin-Frankf ort/Oder railway. This works has been considerably enlarged in the course of the war and further extensions are under construction. It is reliably reported that the works include foundries, turning shops and testing sections, and undertake the manufacture and assembly of complete torpedoes. The torpedo engines are supplied from other factories, and the torpedoes are fully assembled at F&#252;rstenwalde and despatched mainly to Kiel for filling. There is a section devoted to the manufacture of mine casings and another engaged on the manufacture of aerial torpedoes. A separate steel-plate cutting and welding section is believed to make complete oil tanks for fitting to railway wagons, and intelligence reports suggest that this section also prepares steel plates for U-boats. It is believed that in 'ddl t~i nn to the aforementioned armaments a fairly wide range of electrical and general engineering products are made at this works which has its' own machine-tool fitting shop where alone some 250'workers are enployed. The total number of workers employed by Julius Pintsch at F&#252;rstenwalde is believed to be approximately 7,000.Kabelwerke/- 255 -  Kabelwerke     Ketschendorf (2)  The Deutsche Kabelwerke A.G. belongs to the   Kabelwerke Rheydt A.G. Their works at Ketschendorf   are large-scale cable works equipped to produce   aluminium, copper, and lead cables of all kinds   from telephone wire to high-tension, overhead cables   Ketscheniorf is one mile South East of F&#252;rstenwalde. </EngineeringandArmaments>
 		<ChemicalsandExplosives>  Dr B Hecker      F&#252;rstenwalde (3)  The Chemische Werke F&#252;rstenwalde Dr E: Hecker and   W. Zeidler GmbH. are makers of pharmaceuticals   They are also inportant producers of solvents,   particularly turpentines, ethers, and alcohols, also   of aldehydes, especially formaldehyde. Ketones,   particularly acetone, are also produced The actual   capacity of the firmin any of these products is   not available.  Chemische Fabrik vornu Gebr&#252;der Dollfus Furstenwalde (-)  This fim are also producers of solvents. Their   Manufacture of ketones, particularly acetone, is   iuportant but the amount produced is not   ascertainable</ChemicalsandExplosives>
 		<RubberandTyres>  Schumann      Ketschendorf (3)  The Berlin Rixdorf er Gunndwarenf abrik Hans   Schumann produced light rubber goods for   surgical and technical requirements in 1939. It   has been reported that during the last few years   this firm has been turned over to the production   of tyre-repairing materials, rubber hose and   belting. </RubberandTyres>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="F&#220;RTH">
 		<state>Bavaria</state>
@@ -1623,8 +1623,8 @@
 		<Description> F&#252;rth is 5 miles: W. of the centre of N&#252;rnberg with which, town itis closely associated Two main railway lines coming fron the N and.W through W&#252;rzburg and Bamberg respectively converge at F&#252;rth beforeentering N&#252;rnberg There are two airfields, the largerof which ioroughly two miles: N. N. W of the town and the second, where aninportant aircraft factory is situated, is 1 adle w. of the town.The most inportant of F&#252;rth a present industries is the aircraftfactory mentioned below, but the town coxrtains a great number offactories, mostly of small individual ize, with a big 'Hge ofproducts Glass mirrors are one of Perth's min specialities TheBayerische Spiegelglasfabriken. A.G. is the largest of several suchmirror manufacturers Toys, spectacles, and furniture are made bya great xinber of firms The gold-beating, bronze paint, and metalfoil industries have mazy factories in F&#252;rth and there are 5 large-scale breweries which, in peace time, did a big export trade </Description>
 		<PublicUtilityServices> /- 256 -   St&#228;dtisches Gaswerk    Fttrth  (3)   In 1936, this gas works made 250 million   cubic feet of gas#  </PublicUtilityServices>
 		<AircraftandAero-Engines> Bachmann von Blnaenthal A Co#   Ffirth  (2)   The Baohmann plant at Fttrth is engaged on   the manufacture of components and does repair   work for the l&#163;e#110# The volume of output is   not known wither with respect of its repair   work or oosponents mawfacture# A study of   available intelligence indicates that the   Bachmann plant supplies fuselage parts, control   surfaces; wing units, and engine units to the   MUg plant at Brunswick^aggma#</AircraftandAero-Engines>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="FURTWANGEN">
 		<state>Baden</state>
@@ -1805,8 +1805,8 @@
 		<Description>   Goppingen is on the main line between Stuttgart; and Ulm andhas a considerable industry of which machine tools and textiles arethe chief products. </Description>
 		<EngineeringandArmaments> L. Schuler A.G.     Goppingen   (3)   This firmis believed to employ some 1,200 workers and makesmachinery for sheet-steel pressing such as the manufacture of shelland bomb bodies and steel helmets. A branch works of this firmis atEbersbach 6 miles: west of Goppingen. Gebr&#252;der B&#246;hringer     Goppingen   (3)   Approximately 1,000 workers are believed to be   ,   enployed by this firm which makes lathes, boring   grinding and planing machines, and other machine   tools.- 277W. SpeiserG&#246;ppingenBefore the war well-known makers of agriculturalmachinery and implements, this firmis nowreported to be employing 1,000 workers, and tobe engaged on unspecified armaments production.Robert BoschGoppingenG&#246;ppingen is one of several towns in which thefirm of Robert Bosch of Stuttgart is reported tohave opened a new works with a view to decentralisingproduction, but there is as yet no firm confirmationof these reports. </EngineeringandArmaments>
 		<TextilesRayonPulpandPaper> Karela Volkert &amp; Co.G&#246;ppingen^G&#246;ppingen'The M&#252;nchner Strickwarenfabrik Karela G.m.b.H,and the W&#252;rttembergische Strickwarenfabrik Volkert&amp; Co. K.G. are two of a number of small textileworks in G&#246;ppingen.</TextilesRayonPulpandPaper>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="G&#214;RLITZ">
 		<state>Silesia</state>
@@ -1817,8 +1817,8 @@
 		<Transportation> Railway Junction     G&#246;rlitz (2)  The principal line from Dresden through Hirschberg  to the Upper Silesian, Polish, and Czechoslovakian  coal fields, passes through G&#246;rlitz from W. to E.  Two important lines run northwards from the town,  one to Cottbus and Berlin and the other to Sorau  and eastern Brandenburg. Both of these lines  connect G&#246;rlitz with the main Dresden-Breslau line  10 miles: N. of the town. A further branch lino  leads southwards from G&#246;rlitz to Zittau and  Czechoslovakia. </Transportation>
 		<PublicUtilityServices>      G&#246;rlitz (3) Municipal Gas Works  In 1936 the municipal gas works made 257 million  cubic feet of gas. </PublicUtilityServices>
 		<EngineeringandArmaments> WUNAG        G&#246;rlitz (2)   The Waggon &amp; Maschinenbau A.G. G&#246;rlitz is an  important engineering works making steam  turbines, pumps, hydraulic presses, boilers,  tanks for water, oil and gas, railway  waggons, gun carriages, and other Heavy  vehicles including motor ambulances. Diesel  engines were also among their products but  they are now reported to have suspended  production-of these and to be concentrating  on steam turbines. There are three  separate works belonging to this firm, one  occupying a large area in the Northwestern  quarter of the town, the second 4.00 yards  to the E. of the first and the third in  the Lutherstr. W. of the main railway  station. Upwards of 3,000 workers are  believed to be employed.  Zeiss Works      G&#246;rlitz (3)   A branch of Carl Zeiss of Jena is reported to  have been established at G&#246;rlitz and to be  producing optical instruments on a large  scale. It is believed that this has been  done by taking over and extending the works- 279 -  of the Optische und Feinmechanische Werke  Hugo Meyer at Fichtestr. 2, formerly makers of  components for cameras and cinema apparatus. G.A.Fischer       Br&#252;ckenstr. (2)  This firmis an important producer of all  kinds of fire-fighting appliances and  machinery (excluding fire engines).  Approximately 1,000 workers are believed  to be employed. Kosmos       Cottbuserstr. (3)  The Kosmos Rud. Pawlikowski G.m.b.H.  are makers of wood gas generators. They  also specialise in conveyors and sifting  machinery. Karl Dickow       Cottbuserstr. ^-)  The Apparate &amp; Maschinenfabrik Karl Dickow  are makers of centrifugal vacuum pumps. Richard Raupach       Fischerstr. (-)  The Richard Raupach Maschinenfabrik &amp;  Eisengiesserei G.m.b.H, have their own  foundry and are specialists in ceramic  and brick making machinery.</EngineeringandArmaments>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="GOSLAR">
 		<state>Hanover</state>
@@ -1856,8 +1856,8 @@
 		<PublicUtilityServices> Municipal Gas WorksG&#246;ttingen   (3)  In 1936 the Municipal Gas Works made 176   cubic feet of gas. </PublicUtilityServices>
 		<Non-FerrousMetalManufactureandFabrication> Al umi ni iTiwerke      G&#246;ttingen   (3)  The Aluminiumwerke G&#246;ttingen G.nub.H. are  makers of al nmi nium goods and light-metal  stampings, pressings and sections. </Non-FerrousMetalManufactureandFabrication>
 		<EngineeringandArmaments> Sartorius Werke A.G.     Weender Landstr. ) Physikalische Werkst&#228;tten A. G.   Am Zentralfriedhof)(3) Gebr&#252;der Ruhstrat      Lange Geismarstr. )  These three associated firms are makers of  precision balances,, galvonometers, scientific  instruments and apparatus for use in physical,  chemical and biological laboratories. The  Sartorius Werke also specialise in poultry  incubators.- 285 -  Wilhelm Lambrecht    G&#246;ttingen   (3)   This firm are believed to be the leading   German makers of meteorological instruments.  R. Winkel G.m.b.H.    Gottingen   (3)   This firm make microscopes, surveying and   high-precision grinding and polishing   machines.</EngineeringandArmaments>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="GREIFFENBERG">
 		<state>Silesia</state>
@@ -1921,8 +1921,8 @@
 		<Transportation> Railway Repair Shops    Gr&#252;riberg   (3)   These are medium sized repair shops which carry   out the repair of goods wagons. In 19J7 some   750'workers were employed. </Transportation>
 		<SolidFuels> Gr&#252;nberger Gruben      Gr&#252;nberg  (-)   The Consolidierte Gr&#252;nberger Gr&#252;ben exploit the   small brown coal deposits near Gr&#252;nberg and have   a briquette factory. 80% of the shares are owned   by the textile works mentioned below. </SolidFuels>
 		<TextilesRayonPulpandPaper> Deutsche Wollenwaren    Breslauerstr. (3)   The Deutsche Wollenwaren Manufaktur A.G. is the- 289 -   principal textile factory of Gronau. The   main products are heavy textile materials   such as uniform cloth. There are 480 weaving   stools and a spinning mill with 24,000 spimiles:.   Some 2,000 workers were employed in 1939.</TextilesRayonPulpandPaper>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="GUBEN">
 		<state>Brandenburg</state>
@@ -1965,8 +1965,8 @@
 		<population> 26.000</population>
 		<Description>   Gustrow is 20 miles: S. of Rostock and is on the main  lines from Berlin to Rostock and Warnemunde and from Berlin  to Lubeck, which diverge two miles: W. of the town. There are  a number of smell engineering works in addition to that  mentioned below, but the main activities of the town are connected  with agriculture. </Description>
 		<EngineeringandArmaments>   Vantongel      G&amp;strow  (-)   The Vantongelsche Stahlwerke G.m.b.H, specialise in   steel mould castings. In 1938 the factory employed   about 350'workers.</EngineeringandArmaments>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="G&#220;TERSLOH">
 		<state>Westphalia</state>
@@ -1976,8 +1976,8 @@
 		<Description>    G&#252;tersloh is on the main railway line between Bielefeld   and Hamm. Textiles are the chief industry. There are a number   of cotton and rayon weaving mills, none of which is individually   of note, and several small engineering works in addition to the   larger one which is mentioned below. </Description>
 		<Transportation>   tay Repair Shops     G&#228;tersloh 0)    These are medium sized repair shops engaged on the    repair of goods wagons. </Transportation>
 		<EngineeringandArmaments>   Mielewerk A.G.      Gutersloh (3)    These works employed some 2500 workers in 1939 and    produced dairy machinery, washing and wringing    machines, refrigerators, synali, electric motors and    bicycle lamps and components. In 1942 they were    reported to be fully active.</EngineeringandArmaments>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="HAGEN">
 		<state>Westphalia</state>
@@ -2055,8 +2055,8 @@
 		<Transportation> Railway Repair Shops     Hameln (3)  These are medium-sized repair shops  undertaking mainly the repair of  goods wagons.- 329 -  HAMELN (Hanover)Contd.  TYPE AND DESCRIPTION OF OBJECTIVES  </Transportation>
 		<EngineeringandArmaments>   Concordia G. m.b.H.LOCATION PRIORITYRATINGMariental- (-)erstr.   The Eisen &amp; Hartgusswerk Concordia   G.m.b.H. are iron founders and specialise   in chilled-iron rolls and casting moulds   for metal rolling and also for the   paper and rubber industries.   Kaminski G.m.b.H.     Werftstr. (-)   The Frank Kaminski G.nub.H. manufacture   iron and steel couplings. </EngineeringandArmaments>
 		<TextilesRayonPulpandPaper>   Seidenweberei     Hameln (-)   The Mechanische Seidenweberei are   reported to have enlarged their silk   saving plant and to be making   parachutes.</TextilesRayonPulpandPaper>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="HAMM">
 		<state>Westphalia</state>
@@ -2317,8 +2317,8 @@
 		<population> 1.100</population>
 		<Description>  This is a small town 5j miles: west of Gotha. It hasjioindustry of importance other than the rubber works listed below. </Description>
 		<RubberandTyres>  Vereinigte Gothania Werke A.G-. H&#246;rselgau  (3)   This firm manufactures hose of all types,  mechanicals and soles and heels. They  employed about 400 workers before the war.</RubberandTyres>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="H&#214;XTER">
 		<state>Westphalia</state>
@@ -2327,8 +2327,8 @@
 		<population> 8.400</population>
 		<Description>  This small town lies on the River Weser approximately 30 miles: east of Paderborn. It has no industries of importance otherthan the manufacture of rubber thread, mainly in the hands of theone firm listed below. </Description>
 		<RubberandTyres>  H&#246;xter sehe Gummif&#228;den-   H&#246;xter   (-)   fabrik Emil Amts. K. (J.   This firmis a manufacturer of mechanicals,  especially rubber thread. It normally  employed 100 workers, and produced over 1f^  of German thread for the domestic market and  also exported to some extent.HURTH  (Rhineland)See under K&#246;ln (Cologne)H&#220;LS (Westphalia)See under MARL.</RubberandTyres>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="IBBENB&#220;REN">
 		<state>Westphalia</state>
@@ -2338,8 +2338,8 @@
 		<Description>  Ibbenb&#252;ren is approximately halfway between Osnabr&#252;ck andRhein^, on the main railway from Berlin via Hanover to Holland. Itis th^ centre of a small coalfield at the Western end of theTeutoburger Wald. The principal mining company, and an. electricpower station at Ibbenb&#252;ren, are mentioned below. There are noother industries of importance. </Description>
 		<PublicUtilityServices>  Electric Power Station   Ibbenb&#252;ren (2)  This thermal station was built before  1920. Owned by the Nieders&amp;chsische  Kraftwerks A.G-. , it is situated about  15 miles: West of Osnabr&#252;ck on the  State-owned Ibbenb&#252;ren mines. The  station has recently been considerably  increased in capacity and it may be  intended to make it a base-load plant.  At present its installed capacity is  believed to be 65 MW.  Associated with the generating station  is a sub-station, to which 220 kV,  100 kV, and 50'kV transmission lines  of the R.W.E. grid are connected. </PublicUtilityServices>
 		<SolidFuels>  Preussische Berwerks A.G    Ibbenburen (3)  The preussische Bergwerks &amp; H&#252;tten A.G'  are the largest coal-mining undertaking  in this area. They own seven pits in  the vicinity of Ibbenb&#252;ren, which in  1936 had a total output of 800,000 tons  of coal. Some 2500 workers were  employed.</SolidFuels>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="IDAR-OBERSTEIN">
 		<state>Rhineland</state>
@@ -2605,8 +2605,8 @@
 		<EngineeringandArmaments>   Steinfurt      Holsteinerdamm (3)   The Waggonfabrik Steinfurt A.G. have their  works on the North bank of the Pregel  close to the Rathshof railway station.  They are builders of railway wagons and   passenger coaches. Their capacity in 1939  was estimated to be 2,000 standard 20-ton  trucks per annum. In 1939 they employed  some 1,200 workers, having increased their  activity three-fold during the previous  four years.-411-KONIGSBERG (contd.)   Odinwerk      Aweider Allee (-)    The Odinwerk Maschinenfabrik u.    Giesserei Bartlick u. R&#228;gler employed    some 300 workers before the war and    make M.V. components and machinery.    The works are in the South-east    quarter of the town.   Optische Werke Holstein   K&#246;nigsberg   (3)    The Optische Werke Holstein are reported    to have a factory in K&#246;nigsberg making    reflectors, aircraft detectors, and    similar apparatus.   Oster &amp; Co.     Weidendamm   (-)    This firm employed 200 workers before    the war and manufactures high-pressure    steel gas-cylinders.   Pertrix G.m.b.H.    Hermann Goeringstr.(-)    The Pertrix Ostpreussische Elemente u.    Batteriefabrik G.m.b.H. are makers of    smhll electric batteries and elements    mainly for domestic use.   Viktoria Giesserei     Cranzer Allee (-)    The Viktoria Eisengiesserei u. Maschinen-    fabrik Rritz Wittmoser are iron founders    id makers of gun parts. Their works are    in the North-eastern suburb of Rothenstein. </EngineeringandArmaments>
 		<TextilesRayonPulpandPaper>  Feldm&#252;hle  FelctarflhleHolsteiner Damm  (3)Sackheim   (3)    The Feldm&#252;hle Papier u. Zellstoffwerke    A.G. have two large factories in K&#246;nigs-    berg which formerly belonged to the    Koholyt A.G. Both these factories have    a similar range of products and make    sulphite pulp. One of these factories,    known as the Gosse works, is on the North    bank of the Pregel opposite the dock area    and the other, known as the Sackheim    works, is East of the town on the North    bank of the N.ue Pregel in the suburb of    Liep.-412-K&#214;NIGSBERG (oontd.)  </TextilesRayonPulpandPaper>
 		<Foodstuffs>   Gustav Karow      Holsteiner Damm (-)   This firmis a flour mill with a pre-war   estimated daily output of 100 tons,   situated on the North bank of the Pregel   opposite the dock area and near to the   Pre gel railway station.   Lagerhaus      Holsteiner Damm (-)   The grain silos and food-storage ware-   houses of the K&#246;nigsberger Lagerhaus   A.G, are adjacent to the Karow flour   mill mentioned above. The silos had   storage capacity for 60,000 tons of grain.   K&#252;hlhaus      Holsteiner Damm (-)   The large cold-storage warehouse and   ice-making plant of the K&#246;nigsberger   K&#252;hlhaus u, Kristall-Eis Fabrik A.G.   is on the North bank of the Pregel   close to the railway bridge.   Grain Silos     Industriehafen (-)   Large grain storage warehouses are   situated between the Industriehafen   and the Freihafen.</Foodstuffs>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="K&#214;NIGSHULD">
 		<state>Silesia</state>
@@ -2615,8 +2615,8 @@
 		<population> 1.000</population>
 		<Description>   K&#246;nigshuld is ten miles: North East of Oppeln on the river  Malapane, a tributary of the Oder. Apart from the VOHAG works  mentioned below, there are no other industries.  </Description>
 		<EngineeringandArmaments>   VOHAG      K&#246;nigshuld   (3)   These works of the Vereinigte Oberschlesische   H&#252;ttenwerk A.G. comprise forging and pressing   plant. Agricultural implements are the   principal products of the K&#246;nigshuld branch.   Further details regarding the VOHAG are   given under Gleiwitz.</EngineeringandArmaments>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="KONSTANZ">
 		<state>Baden</state>
@@ -2656,8 +2656,8 @@
 		<distance> 710 miles</distance>
 		<population> 53.000</population>
 		<Description>  K&#246;slin is on the main line from Stettin to Danzig  approximately halfway between the two. It is eight miles:  from the Baltic and is the junction for a branch line which  follows the coast Westwards to Kolberg. The' town is mainly  an agricultural centre. There is a small fish-canning  industry, a paper factory, and two firms making agricultural  implements and machinery)but none is of importance.-&#8212;KOSWIGSee under COSWIG.KOTTBUSSee under COTTBUS</Description>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="K&#214;THEN">
 		<state>Anhalt</state>
@@ -2667,8 +2667,8 @@
 		<Description>  K&#246;then is on the main line from Magdeburg to Halle and issix miles: West of Dessau. A line fron Dessau to Bernburg andAschersleben crosses the main line at K&#246;then. The principalindustry is the highly important Junkers works mentioned below.K&#246;then'&#185; s other activities include sugar refining and a fewsmall engineering films. </Description>
 		<Transportation>  Railway Junction    K&#246;then   (3)   The line from Dessau joins the main North   to South line in the Northern part of the   town and the line to Bernburg diverges from   it in the Southern part of the town. This   East to West connection is the railway.link   between the Junkers works at Dessau, K&#246;then,   Bernburg, and Aschersleben, a total distance   of 30 miles:. There are marshalling yards   to the South of K&#246;then.  Railway Repair Shops    K&#246;then   (3)   These shops undeartake the repair of goods   wagons and locomotives. </Transportation>
 		<AircraftandAero-Engines>  Junkers       K&#246;then   (1)   The K&#246;then aero-engine works of the Junkers   Flugzeug u. Motorenbau G.m.b.H, has for   some years been the largest serial production   unit for Junkers aero-engines. They have   been primarily engaged on the production of   the Jumo 211 engine, but there were signs   in 1943 that they were turning over to   production trials for newly developed designs.   In 1942 they were reported to be employing   15,000 workers. . Bernburg, the main Junkers   assembly plant, is six miles: to the West   of K&#246;then.KRAIBURGSee under MUHLDORF</AircraftandAero-Engines>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="KREFELD">
 		<state>Rhineland</state>
@@ -2690,8 +2690,8 @@
 		<population> 1.000</population>
 		<Description>  Kruppam&#252;ble is in Upper Silesia 30 miles: East of Oppeln  and near to the railway station of Keilerswalde on a branch  railway leading from Oppeln to Tarnowitz (in Poland)and within  3 miles: of the former Polish frontier. Apart from the explosives  factory mentioned below there is no industrial development but  the pre-war population will now have been largely increased  presumably by the erection of workers' camps. </Description>
 		<ChemicalsandExplosives>  Lignose Sprengstoff G.m.b.H.Kruppam&#252;ble  (2)   This factory is operated by the Lignose   Sprengstoff G.m.b.H., but, owing to its   inaccessible situation in Upper Silesia,   there is very little up-to-date info mat ion   regarding its activities./The     -420-KRUPPM&#214;HLE (Contd.) Lignose Sprengstoff G-.m.b.H. (contd.)  The factory covers a large area and  is believed to be well equipped; but,  owing to its bad strategic situation  in close proximity to the former  Polish frontier, it does not appear to  have been much used for military  purposes until soma time after the  invasion of Poland. Ground reports  since that date suggest that the factory  has now become of great importance, and  although there is no air reconnaissance  to confirm this, the reports must be  considered of substance in view of the  strategic situation of the plant, which  is now as favourable as it was at one  time dangerous.  It has been reported that the factory  manufactures hexanitrodiphenylamine,  tetryl and T. N. T., and that it has its  own nitric-acid plant. It has also been  reported that the factory makes nitro-  glycerine and nitrocellulose. It is not  common practice to manufacture high  explosives and propellant explosives in  the same plant, but since the Kruppam&#252;hle  factory was used for many years for the  production of mining ejqolosives, it  probably has a nitroglycerine plant,  and for this reason a propellants section  may have been developed.</ChemicalsandExplosives>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 	<city name="K&#220;STRIN">
 		<state>Brandenburg</state>
@@ -2702,7 +2702,7 @@
 		<Transportation>  Railway Junction    K&#252;strin   (3)  The main West to East railway passes   over three bridges inside the town area,   two across the Oder which at this point   divides to form an island, and one across   the Warthe. A second main line coming   from the direction of Silesia along the   right bank of the Oder crosses the Warthe   by a fourth railway bridge and joins the   main track in the Northern pari; of the town.   This line continues Northwards, forming   a direct route between Silesia and Stettin.   Two further branch lines lead from K&#252;strin   into the Eastern parts of Brandenburg.  Railway Repair Shops    K&#252;strin   (F)  These are medium sized repair shops under-   taking the repair of goods wagons. Adjacent   to the repair shops are marshalling yards   and a goods station. </Transportation>
 		<TextilesRayonPulpandPaper>  Zellstoff Fabrik    K&#252;strin   (3)  Prior to the war the Zellstoff Fabrik   K&#252;strin A.G. produced viscose staple   fibre at the rate of 60 tons per day.   The company was formed in 1936 with   the object of erecting this new factory   which first went into production in   1938. </TextilesRayonPulpandPaper>
 		<Foodstuffs>  Kartoffelmehl Fabrik    K&#252;strin  (-)  The Norddeutsche Kartoffelmehl Fabrik   G.m.b.H. are producers of potato flour,   starch and other potato products.</Foodstuffs>
-		<page />
-		<url />
+		<page/>
+		<url/>
 	</city>
 </book>
