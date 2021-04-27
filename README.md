@@ -6,7 +6,7 @@ Dieses Projekt beinhaltet die automatische Extraktion strukturierter Daten aus T
 in XML-Format.
 
 Dieses README liefert einen Überblick über die Funktionsweise des Programmcodes. Bei Fragen können Sie gerne
-Kontakt per E-Mail aufnehmen: fbach9310@gmail.com
+Kontakt per E-Mail aufnehmen: cristian-s@t-online.de & fbach9310@gmail.com 
 
 ### Starten des Programms
 
@@ -17,8 +17,8 @@ sowie die der auszugebenden XML-Dateien festgelegt werden. Falls Sie das Program
 ### Ein- und Ausgabe
 
 Die Eingabedateien befinden sich im Ordner "bomber_input": 
-* BB1_CLEAN_H_C.txt für Band 1
-* BB2_CLEAN_H_C.txt für Band 2 
+* BB1_CLEAN_H_C_V2.txt für Band 1
+* BB2_CLEAN_H_C_V2.txt für Band 2 
 
 Die Ausgabedateien befinden sich im Ordner "bomber_output":
 * bomber_output_part1.xml für Band 1
@@ -41,6 +41,7 @@ Für die Erkennung der Textmuster gibt es folgende Funktionen:
 * find_city_distances für die Entfernungen der Städte zu London
 * find_city_population für die Einwohnerzahl
 * extract_description für die Beschreibung, sowie die strategischen Ziele jeder Stadt
+* generate_url Erzeugt anhand einer URL-Liste, zu jeder Seitenzahl, die passende URL der UB Mainz
 
 Für das Erkennen der Städtenamen wurde mit regulären Ausdrücken gearbeitet. Beispielsweise können alle Städtenamen von A-K mit folgendem Ausdruck erkannt werden:
 > regex = r'^[A-K][A-ZÄÖÜ_\s-]{3,}'
@@ -70,7 +71,7 @@ Im letzten Schritt muss dieses Dictionary dann in eine XML-Datei eingefügt werd
 Der gesamte Prozess des Exports wird mithilfe der Funktion "insert_cities_xml" durchgeführt. 
 Nun werden alle Inhalte aus dem Data-Dictionary eingelesen, sowie, aus einer externen CSV-Datei, die Seitenzahlen aus dem Originaldokument. Nun kann eine XML-Baumstruktur erzeugt werden, an die zuerst die Städtenamen angefügt
 werden. Anschließend wird jeder Stadt-Eintrag mit den dazugehörigen Informationen gefüllt.
-Als letzer Schritt wird die XML-Datei exportiert.
+Als letzten Schritt wird die XML-Datei exportiert und entstandene HTML-Entitäten werden aufgelöst.
 
 
 
