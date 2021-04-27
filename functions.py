@@ -18,6 +18,34 @@ def file_open(textfile):
         text = fp.read()
         return text
 
+# Umwandlung der Seitenzahlen zu Tags mit URLs der UB Mainz
+def generate_url(text):
+    
+    # Index der URLs
+    index_dic = read_csv("extract_city_page_url/city_index.csv")
+    
+    # Formatieren der Seiten und URL im Fließtext für Sonderseiten
+    special_pages = ["- T -", "- T3 -", "- PREFACE -", "- ii -", 
+                     "- 32a -", "- 33a -", "- 33b -", "- 33c -", 
+                     "- 33d -", "- 37a -", "- 666a -", "- 693a -"]
+    
+    for specials in special_pages:
+        for key in index_dic:
+            page = "- "+key+ " -"
+            if page == specials:
+                clean_special = specials.replace("-","").replace(" ","")
+                xmlpage = ' <pb n="'+clean_special+'" url="'+index_dic[key][2]+'"/> ' 
+                text = text.replace(page, xmlpage)
+    
+    # Formatieren der Seiten und URL im Fließtext
+    for x in range(1, 1000): 
+        for key in index_dic:
+            page = "- "+str(x)+ " -"
+            if key == str(x):
+                xmlpage = ' <pb n="'+str(x)+'" url="'+index_dic[key][2]+'"/> ' 
+                text = text.replace(page, xmlpage)
+                
+    return text
 
 def find_cities_detailed(text, volume):
 
@@ -27,7 +55,7 @@ def find_cities_detailed(text, volume):
         regex = r'^[A-K][A-ZÄÖÜ_\s-]{3,}'
 
     else:
-        x = 44
+        x = 26
         regex = r'^[L-Z][A-ZÄÖÜ_\s-]{3,}'
 
     # Liste der Städtenamen
@@ -95,7 +123,7 @@ def find_city_state(text, city_names, volume):
         x = 67
 
     else:
-        x = 44
+        x = 26
 
     # Liste der Bundesländer
     state_list = []
@@ -155,7 +183,7 @@ def find_city_coordinates(text, city_names, volume):
         x = 67
 
     else:
-        x = 44
+        x = 26
 
     # Liste der Koordinaten
     coordinates_list = []
@@ -217,7 +245,7 @@ def find_city_distances(text, city_names, volume):
         x = 67
 
     else:
-        x = 44
+        x = 26
 
     # Liste der Entfernungen zu London
     distances_list = []
@@ -260,6 +288,36 @@ def find_city_distances(text, city_names, volume):
 
     return distances_list
 
+# Funktion für Preface extraktion
+def get_preface(text, volume):
+    
+    pre_text = ""
+    
+    # Volume spezifische Informationen, x = Erster Stadteintrag, alles davor als Preface verwenden
+    if volume == 1:
+        x = 69
+
+    else:
+        x = 26
+        
+    text_split = text.splitlines()
+    
+    # Hilfsvariablen
+    i = 1
+    
+    # Durchlaufen des Textes
+    for index, line in enumerate(text_split):
+
+        # Titel- und Innenseite
+        if i <= x:
+            pre_text += line + " "
+    
+        i += 1
+    
+    # Doppelte Leerzeichen löschen
+    pre_text = re.sub(' +', ' ', pre_text)
+    
+    return pre_text
 
 # Funktion um die Einwohnerzahl zu speichern
 def find_city_population(text, city_names, volume):
@@ -269,7 +327,7 @@ def find_city_population(text, city_names, volume):
         x = 67
 
     else:
-        x = 44
+        x = 26
 
     # Liste der Einwohnerzahlen
     population_list = []
@@ -325,7 +383,7 @@ def extract_description(text, city_names, volume):
         x = 67
 
     else:
-        x = 44
+        x = 26
 
     # Liste der Beschreibungen
     descriptions_list = []
@@ -337,7 +395,7 @@ def extract_description(text, city_names, volume):
                   'Engineering and Armaments',
                   'Chemicals and Explosives', 'Textiles, Rayon, Pulp and Paper', 'Rubber and Tyres', 'Leather',
                   'Foodstuffs']
-
+    
     # Aufsplitten des Textes in Zeilen
     text_split = text.splitlines()
 
@@ -381,15 +439,27 @@ def extract_description(text, city_names, volume):
                                 text_split[index + j + 1]) < 50 and bool(re.search(r'[°]', text_split[index + j + 1])):
                             next_entry = True
 
-                    # Unterteilen des Textes
-
-                    current_categories = []
+                    # Sortieren der Kategorien
+                    sort_categories = []
 
                     # Suchen und Speichern der Kategorien die im Text der aktuellen Stadt vorkommen
                     for category in categories:
                         if category in description:
-                            current_categories.append(category)
+                            sort_categories.append(description.find(category))
+                        else: 
+                            sort_categories.append(99999999999)
 
+                        # Sortiert die Kategorien nach Auftreten in Text
+                    sort_categories = [categories for _,categories in sorted(zip(sort_categories,categories))]
+                            
+                    # Unterteilen des Textes
+                    current_categories = []
+                    
+                    # Suchen und Speichern der Kategorien die im Text der aktuellen Stadt vorkommen
+                    for category in sort_categories:
+                        if category in description:
+                            current_categories.append(category)
+                            
                     description_dic = {}
 
                     # Wenn es keine Kategorien gibt wird nur die Beschreibung gespeichert
@@ -441,7 +511,8 @@ def create_data_dic(text, volume):
 
     city_names = find_cities_detailed(text, volume)
     descriptions = extract_description(text, city_names, volume)
-    data_dic = {'cities': city_names, 'states': find_city_state(text, city_names, volume),
+    data_dic = {'preface': get_preface(text, volume), 'volume': volume, 'cities': city_names,
+                'states': find_city_state(text, city_names, volume),
                 'coordinates': find_city_coordinates(text, city_names, volume),
                 'distances': find_city_distances(text, city_names, volume),
                 'population': find_city_population(text, city_names, volume),
@@ -452,7 +523,10 @@ def create_data_dic(text, volume):
 
 
 # Funktion, die die Ergebnisse an eine vorhandene (manuell erstellte) XML-Datei anfügt
-def insert_cities_xml(xml_file, data_dic, output_file):
+def insert_cities_xml(xml_file, data_dic, temp_file):
+
+    text_split = file_open(input_file).splitlines()
+    
     # Initialisieren des XML-Trees
     tree = ET.parse(xml_file)
 
@@ -477,12 +551,25 @@ def insert_cities_xml(xml_file, data_dic, output_file):
     # Beschreibungen
     description_list = data_dic['description']
 
-    # Index
-    index_dic = read_csv("extract_city_page_url/city_index_cities.csv")
-
     # Durchlaufen aller Elemente "book" im XML-Tree
     for book in root.iter('book'):
-
+    
+        #Titel, Untertitel, Teil und Preface erstellen
+        sub = ET.SubElement(book, 'title')
+        sub.text = "THE BOMBER'S BAEDEKER"
+        
+        sub = ET.SubElement(book, 'subtitle')
+        if volume == 1:
+            sub.text = 'AACHEN-KÜSTRIN'
+        else:
+            sub.text = 'LAHR - ZWICKAU'
+        
+        sub = ET.SubElement(book, 'part')
+        sub.text = str(data_dic['volume'])
+        
+        sub = ET.SubElement(book, 'preface')
+        sub.text = data_dic['preface']
+    
         # Durchlaufen der Städteliste
         for city in city_names:
             # Anfügen eines neuen Sub-Elements "city" mit dem Stadtnamen als Wert des Attributs "name"
@@ -529,36 +616,11 @@ def insert_cities_xml(xml_file, data_dic, output_file):
 
             # Einfügen der Beschreibung sowie der einzelnen Kategorien
             for key in description_list[index]:
-                sub_details = ET.SubElement(city, key.replace(" ", "").replace(",", ""))
-                sub_details.text = description_list[index][key]
+                sub_details = ET.SubElement(city, key.replace(" ", "_").replace(",", "_"))
+                sub_details.text = re.sub(' +',' ',description_list[index][key])
+            
+    tree.write(temp_file, encoding="UTF-8", xml_declaration=True)
 
-        # Anfügen eines Sub-Elements "page" an das Element "city"
-        sub_page = ET.SubElement(city, 'page')
-
-        # Check, dass es nicht mehr Elemente "city", als Einträge in der Indexliste gibt
-        if index < len(index_dic):
-
-            # Einfügen der Seitenzahlen
-            for key in index_dic:
-                if key.upper() == city_names[index]:
-                    sub_page.text = index_dic[key][0]
-
-        # Anfügen eines Sub-Elements "url" an das Element "city"
-        sub_page = ET.SubElement(city, 'url')
-
-        # Check, dass es nicht mehr Elemente "city", als Einträge in der Indexliste gibt
-        if index < len(index_dic):
-
-            # Einfügen der URLs
-            for key in index_dic:
-                if key.upper() == city_names[index]:
-                    sub_page.text = index_dic[key][4]
-
-    # Schreiben des aktuellen Trees in die XML-Datei
-    tree.write(output_file)
-
-
-# Funktion Einlesen von CSV-Dateien
 
 def read_csv(file):
     index_dic = {}
