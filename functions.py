@@ -662,3 +662,16 @@ def write_csv(data_dic):
 
             # Schreiben der Informationen in die CSV-Datei
             csv_writer.writerow([city, longitude, latitude, '', '', '', ''])
+
+# Unescape der HTML Entitäten der erstellten XML-Datei
+def unescape(temp_file, output_file):
+    f = open(temp_file, "r")
+    
+    if os.path.isfile(output_file) :
+        os.remove(output_file)
+    fc = open(output_file, "w")
+    fc.write(saxutils.unescape(f.read()).replace("&lt;", "<").replace("&gt;", ">").replace("&", "and"))
+    fc.close()
+    
+    # Lösche temp_file nach Vorgangsabschluss
+    os.remove(temp_file)
