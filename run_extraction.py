@@ -4,7 +4,7 @@ print("Starting...\n\n")
 
 # Band 1
 volume = 1
-input_file = "bomber_input/BB1_CLEAN_H_C.txt"
+input_file = "bomber_input/BB1_CLEAN_H_C_V2.txt"
 temp_file = "bomber_output/temp.xml"
 output_file = "bomber_output/bomber_output_part1.xml"
 
@@ -17,7 +17,7 @@ bomber_text = file_open(input_file)
 bomber_dic = create_data_dic(bomber_text, volume)
 
 # Export der Daten als XML-Datei
-insert_cities_xml("bomber_xml", bomber_dic, output_file)
+insert_cities_xml("bomber_xml", bomber_dic, temp_file, input_file, volume)
 
 # Unescape der HTML Entitäten der erstellten XML-Datei
 unescape(temp_file, output_file)
@@ -26,7 +26,7 @@ print("\nSuccess!\n\n")
 
 # Band 2
 volume = 2
-input_file = "bomber_input/BB2_CLEAN_H_C.txt"
+input_file = "bomber_input/BB2_CLEAN_H_C_V2.txt"
 output_file = "bomber_output/bomber_output_part2.xml"
 
 print("Configuration:\nVolume:", volume, "\nInput file:", input_file, "\nOutput file:", output_file)
@@ -38,7 +38,7 @@ bomber_text = file_open(input_file)
 bomber_dic = create_data_dic(bomber_text, volume)
 
 # Export der Daten als XML-Datei
-insert_cities_xml("bomber_xml", bomber_dic, output_file)
+insert_cities_xml("bomber_xml", bomber_dic, temp_file, input_file, volume)
 
 unescape(temp_file, output_file)
 
