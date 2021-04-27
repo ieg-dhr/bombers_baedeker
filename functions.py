@@ -1,9 +1,11 @@
 # imports
 import sys
+import sys
 import os
 import os.path
 import csv
 from xml.etree import ElementTree as ET
+import xml.sax.saxutils as saxutils
 import re
 
 
@@ -16,35 +18,35 @@ def file_open(textfile):
 
     else:
         text = fp.read()
-        return text
+    return generate_url(text)
 
 # Umwandlung der Seitenzahlen zu Tags mit URLs der UB Mainz
 def generate_url(text):
-    
+
     # Index der URLs
     index_dic = read_csv("extract_city_page_url/city_index.csv")
-    
+
     # Formatieren der Seiten und URL im Fließtext für Sonderseiten
-    special_pages = ["- T -", "- T3 -", "- PREFACE -", "- ii -", 
-                     "- 32a -", "- 33a -", "- 33b -", "- 33c -", 
+    special_pages = ["- T -", "- T3 -", "- PREFACE -", "- ii -",
+                     "- 32a -", "- 33a -", "- 33b -", "- 33c -",
                      "- 33d -", "- 37a -", "- 666a -", "- 693a -"]
-    
+
     for specials in special_pages:
         for key in index_dic:
             page = "- "+key+ " -"
             if page == specials:
                 clean_special = specials.replace("-","").replace(" ","")
-                xmlpage = ' <pb n="'+clean_special+'" url="'+index_dic[key][2]+'"/> ' 
+                xmlpage = ' <pb n="'+clean_special+'" url="'+index_dic[key][2]+'"/> '
                 text = text.replace(page, xmlpage)
-    
+
     # Formatieren der Seiten und URL im Fließtext
-    for x in range(1, 1000): 
+    for x in range(1, 1000):
         for key in index_dic:
             page = "- "+str(x)+ " -"
             if key == str(x):
-                xmlpage = ' <pb n="'+str(x)+'" url="'+index_dic[key][2]+'"/> ' 
+                xmlpage = ' <pb n="'+str(x)+'" url="'+index_dic[key][2]+'"/> '
                 text = text.replace(page, xmlpage)
-                
+
     return text
 
 def find_cities_detailed(text, volume):
@@ -523,7 +525,7 @@ def create_data_dic(text, volume):
 
 
 # Funktion, die die Ergebnisse an eine vorhandene (manuell erstellte) XML-Datei anfügt
-def insert_cities_xml(xml_file, data_dic, temp_file):
+def insert_cities_xml(xml_file, data_dic, temp_file, input_file, volume):
 
     text_split = file_open(input_file).splitlines()
     
