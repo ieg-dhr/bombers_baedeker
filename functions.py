@@ -321,6 +321,34 @@ def get_preface(text, volume):
     
     return pre_text
 
+# Funktion zur Index-Extraktion
+def get_index(text, volume):
+    
+    ind_text = ""
+    
+    # Volume spezifische Informationen, x = Erster Index Eintrag
+    if volume == 2:
+        x = 19113
+
+        text_split = text.splitlines()
+
+        # Hilfsvariablen
+        i = 1
+
+        # Durchlaufen des Textes
+        for index, line in enumerate(text_split):
+
+            # Titel- und Innenseite
+            if i >= x:
+                ind_text += line + " "
+
+            i += 1
+
+        # Doppelte Leerzeichen löschen
+        ind_text = re.sub(' +', ' ', ind_text)
+
+    return ind_text
+
 # Funktion um die Einwohnerzahl zu speichern
 def find_city_population(text, city_names, volume):
 
@@ -380,12 +408,18 @@ def find_city_population(text, city_names, volume):
 # Funktion die Beschreibungen extrahiert
 def extract_description(text, city_names, volume):
 
+    # Aufsplitten des Textes in Zeilen
+    text_split = text.splitlines()
+    
     # Volume spezifische Informationen, x = Erster Stadteintrag
     if volume == 1:
         x = 67
+        y = len(text_split)
 
     else:
         x = 26
+        y = 19113
+
 
     # Liste der Beschreibungen
     descriptions_list = []
@@ -398,9 +432,6 @@ def extract_description(text, city_names, volume):
                   'Chemicals and Explosives', 'Textiles, Rayon, Pulp and Paper', 'Rubber and Tyres', 'Leather',
                   'Foodstuffs']
     
-    # Aufsplitten des Textes in Zeilen
-    text_split = text.splitlines()
-
     # Hilfsvariablen
     i = 1
     # Durchlaufen des Textes
@@ -427,7 +458,7 @@ def extract_description(text, city_names, volume):
                     # Speichern des kompletten Fließtextes der Stadt als Beschreibung
                     description = ""
                     if last_city:
-                        while index + j < len(text_split):
+                        while index + j < y : # Länge des Textes bis Ende
                             description = description + text_split[index + j]
                             j += 1
 
@@ -513,12 +544,15 @@ def create_data_dic(text, volume):
 
     city_names = find_cities_detailed(text, volume)
     descriptions = extract_description(text, city_names, volume)
-    data_dic = {'preface': get_preface(text, volume), 'volume': volume, 'cities': city_names,
+    data_dic = {'preface': get_preface(text, volume), 
+                'volume': volume, 
+                'cities': city_names,
                 'states': find_city_state(text, city_names, volume),
                 'coordinates': find_city_coordinates(text, city_names, volume),
                 'distances': find_city_distances(text, city_names, volume),
                 'population': find_city_population(text, city_names, volume),
                 'description': descriptions,
+                'index': get_index(text, volume),
                 }
 
     return data_dic
@@ -620,7 +654,11 @@ def insert_cities_xml(xml_file, data_dic, temp_file, input_file, volume):
             for key in description_list[index]:
                 sub_details = ET.SubElement(city, key.replace(" ", "_").replace(",", "_"))
                 sub_details.text = re.sub(' +',' ',description_list[index][key])
-            
+    
+    if data_dic['index'] != "": #Index nur im Band 2
+        sub = ET.SubElement(book, 'index')
+        sub.text = data_dic['index']
+        
     tree.write(temp_file, encoding="UTF-8", xml_declaration=True)
 
 
