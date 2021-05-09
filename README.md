@@ -6,7 +6,7 @@ Dieses Projekt beinhaltet die automatische Extraktion strukturierter Daten aus T
 in XML-Format.
 
 Dieses README liefert einen Überblick über die Funktionsweise des Programmcodes. Bei Fragen können Sie gerne
-Kontakt per E-Mail aufnehmen: cristian-s@t-online.de & fbach9310@gmail.com 
+Kontakt aufnehmen.
 
 ### Starten des Programms
 
