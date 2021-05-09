@@ -73,7 +73,9 @@ Nun werden alle Inhalte aus dem Data-Dictionary eingelesen, sowie, aus einer ext
 werden. Anschließend wird jeder Stadt-Eintrag mit den dazugehörigen Informationen gefüllt.
 Als letzten Schritt wird die XML-Datei exportiert und entstandene HTML-Entitäten werden aufgelöst.
 
+### Nutzungsbedingungen
 
+Die XML-Dateien zum Bomber's Baedeker stehen – soweit nicht anderweitig gekennzeichnet – unter einer Creative Commons Lizenz (CC BY-SA 4.0) zur Verfügung und dürfen uneingeschränkt für nichtkommerzielle Zwecke genutzt werden. Bei einer Weiterverwendung der Texte ist auf das Leibniz-Institut für Europäische Geschichte als Urheber der elektronischen Fassung in der Form „Leibniz-Institut für Europäische Geschichte“ hinzuweisen. 
 
 
 
