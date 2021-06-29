@@ -75,6 +75,41 @@ Als letzten Schritt wird die XML-Datei exportiert und entstandene HTML-Entitäte
 
 
 
+### Legende zu Änderungen im Raw-ABBYY-Digitalisat des Bombers Baedeker
 
+Diese Änderungen sind notwendig, damit die Python-Pipeline fehlerfrei laufen kann:
+
+1. "PRIORITY RATING" der "LOCATIONS" wurden mit "(N/A)" aufgefüllt, wenn keine Priorität angegeben wurden.
+
+2. Mehrfachklammern 
+)								(3)
+) (3) wurden umgeschrieben zu   (3)
+) 								(3)
+
+3. Fehler und Abweichungen durch Verfasser für "industrial headings" wurden korrigiert.
+
+4. Fehler und Abweichungen durch Verfasser für Formatierungen wurden korrigiert.
+
+5. Einfügen beschreibender Seitenzahlen z.B. "- T -" für den Buchtitel.
+
+6. Abgekürzte "industrial headings", wenn diese im Fließtext vorkommen:
+	"Transportation" => Tr.
+	"Public Utility Services" => Pus.
+	"Solid Fuels" => SolF.
+	"Liquid Fuels and Substitutes" => LqiFaS.
+	"Shipbuilding" => Sb.
+	"Engineering and Armaments" => EngA.
+	"Chemicals and Explosives" => CaE.
+	"Textiles, Rayon, Pulp and Paper" => TRPP.
+	"Iron and Steel" => IrSt.
+	"Rubber and Tyres" => RuTy.
+	"Leather" => Leat.
+	"Foodstuffs" => Foods.
+	"Non-Ferrous Metal Manufacture and Fabrication" => NFmmaF.
+	"Iron, Steel and Ferro-Alloys" => ISaFA.
+
+7. Ergänzung fehlender Metadaten
+	Betroffen sind: BRAUBACH (Rhineland), BRAUNSCHWEIG (Brunswick), BURSCHEID (Rhineland)
+	Ergänzt wurde jeweils: 10° 10' N. 10° 10' E: 100 miles: ( )
 
 
