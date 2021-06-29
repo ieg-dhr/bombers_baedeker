@@ -24,6 +24,9 @@ Die Ausgabedateien befinden sich im Ordner "bomber_output":
 * bomber_output_part1.xml für Band 1
 * bomber_output_part2.xml für Band 2
 
+#### Ergänzung
+Im Verzeichnis "bomber_output_ext" befinden sich nochmals überabeitete Ausgabedateien (Postscripts und Karten mit URLs hinzugefügt, fehlende Prios mit (N/A) ergänzt).
+
 ### Funktionsweise des Algorithmus
 
 Der Algorithmus lässt sich in 3 Schritte aufteilen:
