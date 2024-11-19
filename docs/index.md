@@ -8,3 +8,4 @@ year | content
 2021 | <a href="https://doi.org/10.5281/zenodo.4745123">The Bomber's Baedeker. A Guide to the Economic Importance of German Towns and Cities</a>, xml files
 2022 | <a href="https://github.com/ieg-dhr/bombers_baedeker/tree/main/bomber_TEI:XML-Version">Editorially revised and TEI-compliant XML file. </a>
 2023 | <a href="https://github.com/ieg-dhr/QTEI">Quick TEI (QTEI).</a> A lightweight tool to visualize your TEI documents easily. Emerged from work on the Bomber's Baedeker.
+2023 | <a href="https://wuebbena.github.io/public/index.html">Demoversion des „Bomber's Baedeker“ in QTEI</a>
